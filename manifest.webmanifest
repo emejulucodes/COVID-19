@@ -3,13 +3,13 @@
     "name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
     "description" : "Covid-19 tracker to check covid-19 stats all over the world",
     "icons" : [{
-        "src": "/img/coro.svg",
-        "type" : "image/svg",
+        "src": "/img/bacteria.png",
+        "type" : "image/png",
         "sizes" : "192x192"
     },
         {
-            "src": "/img/coro.svg",
-            "type" : "image/svg",
+            "src": "/img/bacteria.png",
+            "type" : "image/png",
             "sizes" : "512x512"
         }],
     "start_url" : "index.html?source=pwa"
@@ -24,7 +24,7 @@
         "description" : "Covid-19 tracker to check covid-19 stats all over the world",
         "url" : "index.html?source=pwa",
         "icons" : [{
-            "src": "/img/coro.svg",
+            "src": "/img/bacteria.png",
             "sizes" : "192x192"
         }]
     },
@@ -34,7 +34,7 @@
             "description" : "Covid-19 tracker to check covid-19 stats all over the world",
             "url" : "index.html?source=pwa",
             "icons" : [{
-                "src": "/img/coro.svg",
+                "src": "/img/bacteria.png",
                 "sizes": "192x192"
             }]
         }]
