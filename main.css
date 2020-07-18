@@ -60,6 +60,8 @@ button {
   background: none;
   border: none;
   margin: -63px 210px;
+  color: #696969;
+  font-weight: bolder;
 }
 #box {
   display: grid;
