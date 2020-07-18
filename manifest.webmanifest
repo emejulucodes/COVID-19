@@ -1,6 +1,6 @@
 {
     "short_name": "COVID-19 TRACKER",
-    "name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
+    "name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU.",
     "description" : "Covid-19 tracker to check covid-19 stats all over the world",
     "icons" : [{
         "src": "/img/bacteria.png",
@@ -15,7 +15,7 @@
     "start_url" : "index.html?source=pwa"
     ,
     "background_color" : "white",
-    "display" : "standalone",
+    "display" : "fullscreen",
     "scope" : "/",
     "theme_color" : "white",
     "shortcuts" : [{
