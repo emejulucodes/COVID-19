@@ -49,8 +49,9 @@ span:hover {
   cursor: pointer;
 }
 ul li {
+  font-weight: bolder;
   list-style: none;
-  font-size: 18px;
+  font-size: 19px;
 }
 button {
   position: relative;
@@ -82,7 +83,7 @@ button {
   width: 95%;
   display: none;
   margin-top: -135%;
-  opacity: 0.8;
+  opacity: 0.9;
   justify-content: center;
   float: none;
   margin-left: 7px;
