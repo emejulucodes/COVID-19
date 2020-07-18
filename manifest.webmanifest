@@ -1,0 +1,41 @@
+{
+    "short_name": "COVID-19 TRACKER",
+    "name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
+    "description" : "Covid-19 tracker to check covid-19 stats all over the world",
+    "icons" : [{
+        "src": "/img/coro.svg",
+        "type" : "image/svg",
+        "sizes" : "192x192"
+    },
+        {
+            "src": "/img/coro.svg",
+            "type" : "image/svg",
+            "sizes" : "512x512"
+        }],
+    "start_url" : "index.html?source=pwa"
+    ,
+    "background_color" : "white",
+    "display" : "standalone",
+    "scope" : "/",
+    "theme_color" : "white",
+    "shortcuts" : [{
+        "name": "COVID-19 TRACKER",
+        "short_name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
+        "description" : "Covid-19 tracker to check covid-19 stats all over the world",
+        "url" : "index.html?source=pwa",
+        "icons" : [{
+            "src": "/img/coro.svg",
+            "sizes" : "192x192"
+        }]
+    },
+        {
+            "name": "COVID-19 TRACKER",
+            "short_name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
+            "description" : "Covid-19 tracker to check covid-19 stats all over the world",
+            "url" : "index.html?source=pwa",
+            "icons" : [{
+                "src": "/img/coro.svg",
+                "sizes": "192x192"
+            }]
+        }]
+}
