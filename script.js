@@ -9,7 +9,6 @@ window.onload = function() {
     }
   },
     10000);
-
   document.querySelector('#mic').addEventListener('click',
     function() {
       var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
