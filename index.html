@@ -13,6 +13,14 @@
   <link rel="manifest" href="manifest.json">
   <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+      .then(function(reg) {}).catch(function(err) {
+        console.log("Failed to create service worker because: ", err)
+      });
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -56,5 +64,5 @@
     <center><a href="https://facebook.com/Emejulu.Officials"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/EmejuluCodes"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/emmanuel_emejulu/"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/emmanuel-emejulu-a7747b195"><i class="fa fa-linkedin"></i></a></center>
     <footer></footer>
   </div>
-  </body>
+</body>
 </html>
