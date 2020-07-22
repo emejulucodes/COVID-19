@@ -14,7 +14,6 @@
   <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
   <script type="text/javascript">
   if ('serviceWorker' in navigator) {
-  // sw.js can literally be empty, but must exist
   navigator.serviceWorker.register('/sw.js');
    }
   self.addEventListener('fetch', (event) => {});
