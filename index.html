@@ -12,13 +12,13 @@
   <link rel="icon" href="img/logo.ico">
   <link rel="manifest" href="manifest.json">
   <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
-  <script>/*
+  <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
       .then(function(reg) {}).catch(function(err) {
         console.log("Failed to create service worker because: ", err)
       });
-    }*/
+    }
   </script>
 </head>
 <body>
