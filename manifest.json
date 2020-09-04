@@ -12,7 +12,7 @@
             "type" : "image/png",
             "sizes" : "512x512"
         }],
-    "start_url" : "/index.html"
+    "start_url" : "/?source=pwa"
     ,
     "background_color" : "white",
     "display" : "standalone",
@@ -22,7 +22,7 @@
         "name": "COVID-19 TRACKER",
         "short_name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
         "description" : "Covid-19 tracker to check covid-19 stats all over the world",
-        "url" : "index.html",
+        "url" : "/source=pwa",
         "icons" : [{
             "src": "/img/bacteria.png",
             "sizes" : "192x192"
