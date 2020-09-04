@@ -4,7 +4,7 @@ const PRECACHE_URLS = [
   'index.html',
   './',
   'styles.css',
-  'scrpit.js'
+  'script.js'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(
