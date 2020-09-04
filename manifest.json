@@ -12,11 +12,11 @@
             "type" : "image/png",
             "sizes" : "512x512"
         }],
-    "start_url" : "https://emejulu-covid19.netlify.app/"
+    "start_url" : "/index.html"
     ,
     "background_color" : "white",
     "display" : "standalone",
-    "scope" : "",
+    "scope" : "/",
     "theme_color" : "white",
     "shortcuts" : [{
         "name": "COVID-19 TRACKER",
@@ -32,7 +32,7 @@
             "name": "COVID-19 TRACKER",
             "short_name" : "COVID-19 TRACKER BY EMMANUEL EMEJULU",
             "description" : "Covid-19 tracker to check covid-19 stats all over the world",
-            "url" : "index.html",
+            "url" : "/index.html",
             "icons" : [{
                 "src": "/img/bacteria.png",
                 "sizes": "192x192"
