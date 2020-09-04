@@ -12,11 +12,11 @@
             "type" : "image/png",
             "sizes" : "512x512"
         }],
-    "start_url" : "index.html"
+    "start_url" : "https://emejulu-covid19.netlify.app/"
     ,
     "background_color" : "white",
     "display" : "standalone",
-    "scope" : "/",
+    "scope" : "",
     "theme_color" : "white",
     "shortcuts" : [{
         "name": "COVID-19 TRACKER",
