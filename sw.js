@@ -1,7 +1,10 @@
 
 var CACHE_NAME = 'Covid19 tracker';
 var urlsToCache = [
-	
+	'index.html',
+         'style.css',
+         'img/bacteria.png',
+         'img/coro.svg'
 ];
 self.addEventListener('install', function(event) {
 	event.waitUntil(
